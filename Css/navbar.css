@@ -1,0 +1,188 @@
+.topheader {
+    box-shadow: 0 4px 5px var(--navbar-shallow-color);
+    position: fixed;
+    /* background-color: var(--theme-color); */
+    background-color: var(--primary-color-azul);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between ;
+    padding: 10px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.topnav i {
+    color:aqua;
+}
+
+.colorIcono {
+    color: aqua;
+}
+/* LOGO */
+
+.logo {
+    display: flex ;
+    align-items: center ;
+    font-size: 18px;
+    font-weight: 500;
+    /* color: var(--primary-color) */
+    color: var(--text-color-inverse)
+}
+
+.logo img {
+    border-radius: 50%;
+}
+
+/*  MENÚ  */
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    padding: 0 15px;
+}
+
+.menu a {
+    /* color: var(--text-color ); */
+    color: var(--text-color-inverse);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+/* -----------subrayado con aqua de cada uno de los li del menu ------------- */
+
+.menu a::after {
+    content: "";
+    background-color:aqua;
+    position: absolute;
+    left: 0;
+    top: calc(100% + 4px);
+    width: 100%;
+    height: 4px;
+
+    opacity: 0;
+    transition: opacity 0.3 ;
+}
+
+.menu a.selected::after,
+.menu a:hover::after {
+    opacity: 0.8;
+}
+
+.menu a:hover {
+    /* color: var(--primary-color); */
+    color:aqua;
+}
+
+/* ---------------------------- */
+
+.open-menu,
+.close-menu {
+    display: none;
+}
+
+
+
+/* ---------------    MEDIA QUERY  ------------- */
+
+@media (max-width: 950px){
+    .menu {
+        flex-direction: column;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        align-items: center;
+        background-color: var(--menu-mobile-background-color);
+        height: 100%;
+        overflow-y: auto;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ;
+    }
+    
+    .menu li {
+        padding: 0 ;
+    }
+    
+    .menu a {
+        color: var(--text-color-inverse );
+        line-height: 70px;
+        font-size: 25px;
+    }
+
+    .open-menu, 
+    .close-menu {
+        display: block;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .close-menu {
+        align-self: flex-end;
+        padding: 20px 15px;
+    }
+
+    .menu_opened {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
+        outline: none;
+    }
+
+    .menu a::after {
+        content: none;
+    }
+    
+    .menu a:hover,
+    .menu a.selected {
+        color: var(--secondary-color);
+    }
+}
+
+
+
+
+/* .card {
+    width: 150px;
+    height: 200px;
+    background: 
+        url()
+        center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transform: 
+        rotate(20deg)
+        skew(-10deg, -5deg);
+    transition: 
+    translate 0.25s,
+    box-shadow 0.25s;
+} */
+
+/* .card:hover {
+    translate: 0 -30px;
+    box-shadow:
+    5px 3px rgb(217, 220, 242 / 75%),
+    10px 6px rgb(44, 417, 255 / 50%),
+    15px 9px rgb(126, 255, 178 / 25%),
+} */
+
+
+

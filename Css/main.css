@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;700&display=swap');
+
+
+:root {
+    --theme-color: white;
+    --primary-color: #124f88;
+    --secondary-color: #f7c331;
+    --text-color-inverse: white;
+    --text-color: black;
+    --navbar-shallow-color: #e5e5e5; 
+    --menu-mobile-background-color: #3A4460;
+    --primary-color-azul: #191c32;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: var(--theme-color); */
+    background-color: var(--primary-color-azul);
+    /* color: var(--text-color); */
+    color: var(--text-color-inverse);
+    /* background-image: url("Img/new york_001.jpg "); */
+    padding: 70px;
+}
+
+/* .wrapper {
+    width: 100vw;
+    height: 100vw;
+    background-color: #191c32;
+    color: greenyellow
+
+} */
+
+a {
+    text-decoration: none;
+    color: var(--text-color)
+}
+
+.horizontal-padding {
+    padding-left: 25px;
+    padding-right: 25px;
+
+} 
+ 
+.vertical-padding {
+    padding-top: 25px; 
+    padding-top: 25px; 
+} 
+
+  /* -----MEDIA QUERY  MAIN  --------------------------------------------------- */
+  
+  /*  -- MEDIA QUERY PARA QUE FUNCIONE EN DISPLAYS MAYORES A 950px -- */
+        /* A PARTIR DE 950px HACIA ARRIBA EL COLOR ES AMARILLO */
+          /* VALORES MENORES A 950px EL COLOR DE FONDO ES AZUL */
+
+
+@media (min-width: 950px) {
+    .horizontal-padding {
+        padding-left: 70px;
+        padding-right: 70px;
+    } 
+    
+    .vertical-padding {
+        padding-top: 70px;
+        /* padding-bottom: 70px; */
+        /* padding-bottom: 100vh; */
+        padding-bottom: 58vh;
+        /* background-color: #f7c331;  */  
+    }     
+}
+
+
+
+
+
+  
+  

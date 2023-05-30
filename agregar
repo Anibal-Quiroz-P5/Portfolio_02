@@ -1,0 +1,151 @@
+  <!-- ACERCA DE MI  -->
+
+  <div class="horizontal-padding-about vertical-padding-about">
+    <section class="about">
+      <div class="about-info">
+        <h2 class="about-title"> About me</h2>
+        <div class="divider"></div>
+        <p class="about-details">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt tempora nihil
+          suscipit veniam aut placeat
+          quasi voluptates libero ex deleniti cupiditate, eligendi iusto molestias eos ratione quo perspiciatis dolores
+          veritatis.</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt tempora nihil suscipit veniam aut placeat
+          quasi voluptates libero ex deleniti cupiditate, eligendi iusto molestias eos ratione quo perspiciatis dolores
+          veritatis.</p>
+      </div>
+      <span class="about-img-section">
+
+        <!-- <img class="about-img" src="Img/professional-profile.png" alt="Anibal Daniel Quiroz retrato"> -->
+      </span>
+
+    </section>
+  </div>
+
+
+  <!-- Portafolio -->
+
+  <div class="portfolio">
+    <div class="portfolio-headings">
+      <h2> My Portfolio </h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="container">
+      <div class="card">
+        <div class="card__img">
+        </div>
+        <div class="card__title">
+          <h2>Project description</h2>
+        </div>
+        <div class="card__projects-links">
+          <a href="https://fonts.google.com/specimen/Montserrat?query=mon" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fa-sharp fa-solid fa-earth-americas"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </div>
+        <div class="project-details-content">
+          <button class="project-details download-cv">
+            <a href="">
+              Project details
+            </a>
+          </button>
+        </div>
+
+      </div class="todas-las-cards">
+      <div class="card">
+        <div class="card__img">
+        </div>
+        <div class="card__title">
+          <h2>Project description</h2>
+        </div>
+        <div class="card__projects-links">
+          <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fa-sharp fa-solid fa-earth-americas"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </div>
+        <div class="project-details-content">
+          <button class="project-details download-cv">
+            <a href="">
+              Project details
+            </a>
+          </button>
+        </div>
+
+      </div>
+      <div class="card">
+        <div class="card__img">
+        </div>
+        <div class="card__title">
+          <h2>Project description</h2>
+        </div>
+        <div class="card__projects-links">
+          <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="">
+            <i class="fa-sharp fa-solid fa-earth-americas"></i>
+          </a>
+          <a href="">
+            <i class="fa-solid fa-code"></i>
+          </a>
+        </div>
+        <div class="project-details-content">
+          <button class="project-details download-cv">
+            <a href="">
+              Project details
+            </a>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Contactame   Contact me -->
+
+  <div class="contact-section">
+    <div class="contact-headings">
+      <h2>Keep in touch</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="container-contact">
+      <img src="./Img/img-opacity50.png" alt="Anibal Quiroz Picture">
+      <div class="contact-form">
+        <h4>Send me a message...</h4>
+        <form class="form">
+          <input type="text" placeholder="name">
+          <input type="email" placeholder="Email">
+<!--           <textarea placeholder="Place your message here...">
+          </textarea> -->
+          <textarea name="" id="" cols="30" rows="10"> Place your message here</textarea>
+          <button class="btn-submit">Send message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <h2>Anibal Quiroz</h2>
+      <h5>Full Stack Developer</h5>
+    </div>
+    <div class="social-network">
+      <i class="fa-brands fa-twitter fa-2xl"></i>
+      <a href="https://hyperbloq.com/"></a>
+      <i class="fa-brands fa-linkedin fa-2xl"></i>
+      <i class="fa-brands fa-github fa-2xl"></i>
+
+    </div>
+  </footer>

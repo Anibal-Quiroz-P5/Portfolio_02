@@ -1,0 +1,264 @@
+
+
+span {
+    color: aqua;
+  }
+    /*  ------------------------------------------------------------ */
+
+    /* ACERCA DE MI */
+
+    .imagAcercaDeMi {
+        position: relative;
+    }
+
+    .download-cv {
+        padding: 10px 20px;
+        background-color: aqua;
+        border: none;
+        border-radius: 20px;
+        margin-top: 10px;
+        cursor: pointer;
+        box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+      }
+      
+      .download-cv:hover {
+        background-color:white;
+        box-shadow: none;
+      }
+
+
+   /*  ------------------------------------------------------------ */
+
+
+   /* PORTFOLIO */
+
+
+.portfolio {
+    width: 100vw;
+    height: 100vw;
+    background-color: #191c32;
+    color: greenyellow
+
+}
+
+.portfolio {
+    width: 100vw;
+    background-color: #191c32;
+    color: white;
+}
+
+.portfolio-headings {
+        width: 100vw;
+        padding: 5em;
+    }
+
+.portfolio-headings h2 {
+    font-size: 2.5em;
+}
+
+.portfolio .container {
+    width: 80vw;
+    height: 80vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    color: white;
+    height: 350px;
+    background-color:#101e4b;
+    margin: 1em;
+}
+
+.card__img {
+    width: 100%;
+    height: 150px;
+    background-image: url(../Img/2-original.png);
+    background-size: cover;
+}
+
+.card__title {
+    padding: 20px;
+}
+
+.card__projects-links {
+    display: flex ;
+    justify-content: space-evenly;
+}
+
+.card__projects-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.card__projects-links i {
+    font-size: 1.5em;
+}
+
+.card .project-details {
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+}
+
+.card .project-details a {
+    text-decoration: none;
+    color: #191c32;
+    text-transform: uppercase;
+}
+
+.project-details-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.button-content {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.project-details-button a {
+    text-decoration: none;
+    color: #191c32;
+}
+
+.container-contact {
+    padding: 3em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    color: white;
+}
+
+.container-contact img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
+} 
+
+
+/*   ------------------------------------------------------------  */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: white;
+    padding: 1.5em;
+    border: 1px solid white;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+    border-radius: 20px;
+    cursor: pointer;
+    /* box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69); */
+}
+
+.btn-submit:hover {
+    background-color: white;
+    box-shadow: none;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background-color: aqua;
+    color:black
+}
+
+.footer-content h2 {
+    font-size: 3em;
+}
+
+.footer-content h5,
+.social-network  {
+    font-size: 1.5em;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+  /*  ------------------------------------------------------------ */
+
+@media (min-width: 950px) {
+    .profile-info {
+        margin-bottom: 0px;
+    }
+    
+    .profile-img {
+        width: 100%;
+        max-width: 350px;
+        transform: scaleX(-1);
+    }
+    
+    .profile {
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        max-width: 980px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+    .profile-title {
+        font-size: 60px;
+    }
+    
+    .profile-details {
+       font-size: 25px;
+       margin: 30px 0;
+    }
+    
+    .profile-btn {
+        font-size: 28px;
+    }
+
+
+     /* Acerca de mi  About me */
+     
+    .about {
+/*         width: 100vw;
+        height: 100vh; */
+        /* background-color: aqua; */
+    }
+
+
+}
