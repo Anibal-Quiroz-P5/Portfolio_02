@@ -137,7 +137,8 @@ container > *  {
 
 .portfolio {
     max-width: 980px;
-    height: 100vh;
+    height: 85vh;
+    /* border: 5px solid white; */
 }
 
 .card__img {
@@ -164,6 +165,7 @@ container > *  {
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
+            margin-top: 350px;
 }
 
 .card {

@@ -43,7 +43,7 @@ a {
  
 .vertical-padding {
     padding-top: 25px; 
-    padding-top: 25px; 
+    padding-bottom: 25px; 
 } 
 
   /* -----MEDIA QUERY  MAIN  --------------------------------------------------- */
@@ -55,15 +55,17 @@ a {
 
 @media (min-width: 950px) {
     .horizontal-padding {
+        /* width: 100vw; */
         padding-left: 70px;
         padding-right: 70px;
     } 
     
     .vertical-padding {
+        /* height: 100vh; */
         padding-top: 70px;
         /* padding-bottom: 70px; */
         /* padding-bottom: 100vh; */
-        padding-bottom: 58vh;
+        padding-bottom: 70px;
         /* background-color: #f7c331;  */  
     }     
 }

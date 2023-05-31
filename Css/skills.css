@@ -39,6 +39,7 @@
 
 .skills-title {
     font-size: 50px;
+    margin-top: 350px;
 }
 
 .skills-skill {
@@ -54,7 +55,8 @@
 }
 
 .skills {
-height: 100vh;
+height: 85vh;
+/* border: 5px solid white; */
 }
 
 }
