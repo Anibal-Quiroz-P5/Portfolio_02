@@ -26,13 +26,13 @@
     <nav class="topnav">
       <a href="#" class="logo">
         <img height="50" width="50" src="Img/mi foto.jpeg" alt="developer">
-        <div>
+        <div class="logo_texto">
           Quiroz Anibal Daniel <br>
           { code }
         </div>
       </a>
       <button class="open-menu" aria-label="Abrir menú">
-        <img src="Img/hamburger-icon.svg" alt="abrir menú">
+        <!-- <img src="Img/hamburger-icon.svg" alt="abrir menú"> -->
         <i class="fa-solid fa-bars fa-2xl colorIcono"></i>
       </button>
 
@@ -42,17 +42,18 @@
         </button>
         <li><a href="#profile" class="selected">Perfil</a></li>
         <li><a href="#experience">Acerca de mi</a></li>
-        <li><a href="#skills">Portfolio</a></li>
+        <li><a href="#skills" >Skills</a></li>
         <li><a href="#contact">Contacto</a></li>
       </ul>
     </nav>
   </header>
 
+  
 
   <!--  PROFILE  -->
   <!-- HOLA SOY QUIROZ ANIBAL DANIEL  -->
 
-  <div class="horizontal-padding vertical-padding">
+  <div id="profile" class="horizontal-padding vertical-padding">
     <section class="profile">
       <div class="profile-info">
         <h1 class="profile-title"> Hola, soy <br /> Quiroz <span>Anibal </span> Daniel </h1>
@@ -65,7 +66,8 @@
         </button>
       </div>
       <span class="profile-img-section">
-        <img class="profile-img" src="Img/professional-profile.png" alt="programador">
+        <!-- <img class="profile-img" src="Img/professional-profile.png" alt="programador"> -->
+        <img class="profile-img" src="Img/mi foto.jpeg" alt="programador">
         <div class="profile-img-line"></div>
       </span>
     </section>
@@ -74,18 +76,18 @@
  -->
   <!-- TECNOLOGIAS -->
 
-  <div class="horizontal-padding vertical-padding">
+  <div id="skills" class="horizontal-padding vertical-padding">
     <section class="skills">
       <h2 class="skills-title"> Habilidades</h2>
       <ul class="skills-list">
         <li class="skills-skill">CSS</li>
         <li class="skills-skill">HTML</li>
-        <li class="skills-skill">Node.js</li>
-        <li class="skills-skill">React.js</li>
-        <li class="skills-skill">pSQL</li>
         <li class="skills-skill">JavaScript</li>
+        <li class="skills-skill">Node.Js</li>
+        <li class="skills-skill">React.Js</li>
         <li class="skills-skill">Github</li>
         <li class="skills-skill">Redux</li>
+        <li class="skills-skill">pSQL</li>
       </ul>
     </section>
   </div>
@@ -94,17 +96,24 @@
   <!-- PROYECTOS DEL PORTFOLIO -->
 
  <!--  <div class="horizontal-padding vertical-padding"> -->
-    <div class="portfolio">
+    <div id="contact" class="portfolio">
       <div class="portfolio-headings">
         <h2> Mis proyectos </h2>
+        <br>
+        <br>
         <!-- <div class="divider"></div> -->
       </div>
 
       <div class="container">
 
         <div class="card">
-          <div class="card__img"></div>
-          <div class="card__title"> <h2>Project description</h2></div>
+          <div  id="img_fondo_01" class="card__img" > </div>
+          <!-- <div  class="card__img"> <img src="Img/Custom-Shirts.png" alt=""> </div> -->
+          <div class="card__title"> 
+            <h2>Project description</h2>
+            <p>En este caso lo hicimos con otras tecnologhias cmomo  dfjaljfl asjja jasl la   dsajañllajs  jaljlkas jla lkasd l </p>
+
+          </div>
           <div class="card__projects-links">
             <a href="https://fonts.google.com/specimen/Montserrat?query=mon" target="_blank">
               <i class="fa-brands fa-github"></i>
@@ -127,10 +136,11 @@
 
 
         <div class="card">
-          <div class="card__img">
+          <div id="img_fondo_02" class="card__img">
           </div>
           <div class="card__title">
             <h2>Project description</h2>
+            <p>hecha con tecnolofía   react etc etc y adenas tuiiebe 24 ocmponentes hechos en talilwind con </p>
           </div>
           <div class="card__projects-links">
             <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
@@ -154,10 +164,11 @@
         
 
         <div class="card">
-          <div class="card__img">
+          <div id="img_fondo_03" class="card__img">
           </div>
           <div class="card__title">
             <h2>Project description</h2>
+            <p> A este lo hice tambien con otras cosas como las que viennen de next js, ademas bootstrap y tailwind</p>
           </div>
           <div class="card__projects-links">
             <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
