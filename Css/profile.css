@@ -85,7 +85,7 @@
      
     .profile {
         width: 100vw;
-        height: 85vh;
+        height: 80vh;
         /* border: 5px solid white; */
         text-align: left;
         display: flex;
@@ -95,7 +95,7 @@
         max-width: 66%;
         margin: 0 auto;
         align-items: center;
-        /* background-color: chartreuse; */
+        /* background-color:blueviolet; */
     }
     
     .profile-title {

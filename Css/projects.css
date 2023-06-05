@@ -159,6 +159,7 @@ container > *  {
     
     display: flex;
     justify-content: space-between ;
+    /* margin-top: 1%; */
     
 }
 
@@ -166,8 +167,10 @@ container > *  {
     /* max-width: 980px; */
     /* max-width: 1485px; */ 
     max-width: 64%;
-    height: 85vh;
+    height: 65vh;
     /* border: 5px solid white; */
+    /* background-color: chartreuse; */
+    margin-top: 7%;
 }
 
 /* #img_fondo_01 {
@@ -204,11 +207,12 @@ container > *  {
     /*     
             width: 100vw;
             padding: 5em; */
-            font-size: 20px;
+            /* font-size: 20px; */
+            font-size: 30px;
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
-            margin-top: 350px;
+            /* margin-top: 1%; */
 }
 
 .card {
@@ -262,5 +266,9 @@ container > *  {
 .project-details-button a {
     text-decoration: none;
     color: #191c32;
+}
+
+.linea-final-proyectos {
+    border: 1px solid yellow;
 }
 }
