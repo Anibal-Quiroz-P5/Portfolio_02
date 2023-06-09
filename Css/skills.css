@@ -1,6 +1,4 @@
 .skills {
-    /* max-width: 980px; */
-    /* max-width: 1485px; */
     max-width: 100%;
     margin: 0 auto;
 }
@@ -19,8 +17,6 @@
     border-radius: 42px;
     padding: 0.5em 0.7em;
     margin: 10px;
-/*     background-color: aliceblue;
-    color: black; */
     font-weight: 500;
 } 
 
@@ -41,14 +37,11 @@
 
 .skills-title {
     font-size: 50px;
-    /* margin-top: 350px; */
 }
 
 .skills-skill {
     font-size: 30px;
     margin: 20px;
-/*     background-color: aliceblue;
-    color: black; */
 } 
 
 .linea-final-skills{
@@ -56,11 +49,11 @@
 }
 
 .skills {
-/* height: 51vh; */
 height: 60vh;
-/* border: 5px solid white; */
 margin-top: 22%;
 /* background-color: burlywood; */
+width: 100vw;
+max-width: 66%;
 }
 
 }

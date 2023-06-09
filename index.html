@@ -1,201 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Quiroz Anibal</title>
-  <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiroz Anibal</title>
+    <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
  -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="Css/main.css">
-  <link rel="stylesheet" href="Css/navbar.css">
-  <link rel="stylesheet" href="Css/profile.css">
-  <link rel="stylesheet" href="Css/skills.css">
-  <link rel="stylesheet" href="Css/projects.css">
-  <script src="https://kit.fontawesome.com/320a56fa34.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="stylesheet" href="Css/main.css" />
+    <link rel="stylesheet" href="Css/navbar.css" />
+    <link rel="stylesheet" href="Css/profile.css" />
+    <link rel="stylesheet" href="Css/aboutMe.css" />
+    <link rel="stylesheet" href="Css/skills.css" />
+    <link rel="stylesheet" href="Css/projects.css" />
+    <link rel="stylesheet" href="Css/contact.css" />
+    <!-- <link rel="stylesheet" href="Css/cube-loader.css"> -->
+    <script
+      src="https://kit.fontawesome.com/320a56fa34.js"
+      crossorigin="anonymous"
+    ></script>
 
-  <script defer src="js/app.js"></script>
-</head>
+    <script defer src="js/app.js"></script>
+  </head>
 
-<body>
-  <header class="topheader">
-    <nav class="topnav">
-      <a href="#" class="logo">
-        <img height="50" width="50" src="Img/mi foto.jpeg" alt="developer">
-        <div class="logo_texto">
-          Quiroz Anibal Daniel <br>
-          { code }
-        </div>
-      </a>
-      <button class="open-menu" aria-label="Abrir menú">
-        <!-- <img src="Img/hamburger-icon.svg" alt="abrir menú"> -->
-        <i class="fa-solid fa-bars fa-2xl colorIcono"></i>
-      </button>
-
-      <ul class="menu ">
-        <button class="close-menu" aria-label="Cerrar menú">
-          <img src="Img/close-icon.svg" alt="cerrar menú">
+  <body>
+    <header class="topheader">
+      <nav class="topnav">
+        <a href="#" class="logo">
+          <img height="50" width="50" src="Img/mi foto.jpeg" alt="developer" />
+          <div class="logo_texto">
+            Quiroz Anibal Daniel <br />
+            { code }
+          </div>
+        </a>
+        <button class="open-menu" aria-label="Abrir menú">
+          <!-- <img src="Img/hamburger-icon.svg" alt="abrir menú"> -->
+          <i class="fa-solid fa-bars fa-2xl colorIcono"></i>
         </button>
-        <li><a href="#profile" class="selected">Perfil</a></li>
-        <li><a href="#experience">Acerca de mi</a></li>
-        <li><a href="#skills" >Skills</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </nav>
-  </header>
 
-  
+        <ul class="menu">
+          <button class="close-menu" aria-label="Cerrar menú">
+            <img src="Img/close-icon.svg" alt="cerrar menú" />
+          </button>
+          <li><a href="#profile" class="selected">Perfil</a></li>
+          <li><a href="#aboutme">Acerca de mi</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!--  PROFILE  -->
-  <!-- HOLA SOY QUIROZ ANIBAL DANIEL  -->
+    <!--  PROFILE  -->
+    <!-- HOLA SOY QUIROZ ANIBAL DANIEL  -->
 
-  <div id="profile" class="horizontal-padding vertical-padding">
-    <section class="profile">
-      <div class="profile-info">
-        <h1 class="profile-title"> Hola, soy <br /> Quiroz <span>Anibal </span> Daniel </h1>
-        <p class="profile-details">
-          Soy un apasionado por la arquitectura y desarrollo de software con mas
-          de 10 años de experiencia en programación y tecnologías de la información
-        </p>
-        <button class="profile-btn">
-          Descargar Cv
-        </button>
+    <div id="profile" class="horizontal-padding vertical-padding">
+      <section class="profile">
+        <div class="profile-info">
+          <h1 class="profile-title">
+            Hola, soy <br />
+            Anibal <span>Quiroz</span> 
+          </h1>
+          <p class="profile-details">
+            Desarrollador Full Stack, apasionado por los bits y por los códigos que puedo generar con ellos.
+          </p>
+          <!-- <button class="profile-btn">Descargar Cv</button> -->
+          <a download href="Img/CV Quiroz Anibal.pdf"><button class="profile-btn" download="">Descargar Cv</button>
+          </a>
+        </div>
+        <span class="profile-img-section">
+          <!-- <img class="profile-img" src="Img/professional-profile.png" alt="programador"> -->
+          <img class="profile-img" src="Img/mi foto.jpeg" alt="programador" />
+          <div class="profile-img-line"></div>
+        </span>
+      </section>
+    </div>
+    <!-- <div class="linea-final">  <p> HOOOOOOOOLLLLLAAAAA</p></div> -->
+
+
+        <!--  ACERCA DE MI   -->
+    <!-- ACERCA DE MI  -->
+
+    <div id="aboutme" class="horizontal-padding vertical-padding">
+      <section class="aboutMe">
+        <div class="aboutMe-info">
+          <h1 class="aboutMe-title">
+            Mi pequeño background <br />
+            
+          </h1>
+          <p class="aboutMe-details">
+            Hola mi nombre es Anibal, disfruto creando soluciones mediante código.
+            En la universidad aprendi a sumergirme en el apasionante mundo de los bits y la programación. En paralelo, en la parte laboral 
+            los utilicé para resolver tareas en mi especialidad.
+            Trabajé varios años en tecnologías de software/hardware, pero 
+            decidí dar un giro a mi rumbo y especializarme en software, cursé el bootcamp de Desarrollador Full Stack Javascript de 800 hs en Plataforma 5 para continuar disfrutando lo que se hacer...
+
+
+          </p>
+        </div>
+        <span class="aboutMe-img-section">
+          <img class="aboutMe-img" src="Img/Screenshot from 2023-06-08 16-12-36.png" alt="programador" />
+          <div class="aboutMe-img-line"></div>
+        </span>
+      </section>
+    </div>
+
+
+
+    <!-- TECNOLOGIAS -->
+
+    <div id="skills" class="horizontal-padding vertical-padding">
+      <section class="skills">
+        <h2 class="skills-title">Habilidades</h2>
+        <ul class="skills-list">
+          <li class="skills-skill">CSS</li>
+          <li class="skills-skill">HTML</li>
+          <li class="skills-skill">JavaScript</li>
+          <li class="skills-skill">Node.Js</li>
+          <li class="skills-skill">React.Js</li>
+          <li class="skills-skill">Github</li>
+          <li class="skills-skill">Redux</li>
+          <li class="skills-skill">pSQL</li>
+        </ul>
+      </section>
+    </div>
+    <!-- <div class="linea-final-skills"> <p>LINEA FINALLLLL DE   SKILLLLSSSS</p></div> -->
+
+    <!-- PROYECTOS DEL PORTFOLIO -->
+
+    <div id="proyectos" class="horizontal-padding vertical-padding">
+      <div class="portfolio">
+        <div class="portfolio-headings">
+          <h2>Mis proyectos</h2>
+          <br />
+          <br />
+          <!-- <div class="divider"></div> -->
+        </div>
+
+        <div class="container">
+          <div class="card">
+            <div id="img_fondo_01" class="card__img"></div>
+            <!-- <div  class="card__img"> <img src="Img/Custom-Shirts.png" alt=""> </div> -->
+            <div class="card__title">
+              <h2>Custom T-shirt</h2>
+              <p>
+                Proyecto grupal de una aplicación de remeras customizadas por el usuario. Se utilizaron las siguientes tecnologías: React, Tailwind, pSQL, NodeJs, etc.
+              </p>
+              
+            </div>
+            <div class="card__projects-links">
+              <a
+                href="https://fonts.google.com/specimen/Montserrat?query=mon"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="">
+                <i class="fa-sharp fa-solid fa-earth-americas"></i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-code"></i>
+              </a>
+            </div>
+            <div class="project-details-content">
+              <button class="project-details">
+                <a href=""> </a>
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="img_fondo_02" class="card__img"></div>
+            <div class="card__title">
+              <h2>Mi Portfolio</h2>
+              <p>
+                Portfolio personal implementado con Html, Css y Javascript. El mismo es mobile firtst  y responsive.
+              </p>
+              <br>
+              <br>
+              
+            </div>
+            <div class="card__projects-links">
+              <a
+                href="https://github.com/Anibal-Quiroz-P5/Portfolio_01"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="">
+                <i class="fa-sharp fa-solid fa-earth-americas"></i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-code"></i>
+              </a>
+            </div>
+            <div class="project-details-content">
+              <button class="project-details ">
+                <a href="">  </a>
+              </button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div id="img_fondo_03" class="card__img"></div>
+            <div class="card__title">
+              <h2>House of Dev</h2>
+              <p>
+                Proyecto grupal de aplicación de inmobiliaria, su implementación permite reservar una cita para visitar 
+                una propiedad con el objetivo de alquilarla o comprar la misma.
+              </p>
+            </div>
+            <div class="card__projects-links">
+              <a
+                href="https://github.com/Anibal-Quiroz-P5/Portfolio_01"
+                target="_blank"
+              >
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="">
+                <i class="fa-sharp fa-solid fa-earth-americas"></i>
+              </a>
+              <a href="">
+                <i class="fa-solid fa-code"></i>
+              </a>
+            </div>
+            <div class="project-details-content">
+              <button class="project-details">
+                <a href=""> </a>
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
-      <span class="profile-img-section">
-        <!-- <img class="profile-img" src="Img/professional-profile.png" alt="programador"> -->
-        <img class="profile-img" src="Img/mi foto.jpeg" alt="programador">
-        <div class="profile-img-line"></div>
-      </span>
-    </section>
-  </div>
-  <!-- <div class="linea-final">  <p> HOOOOOOOOLLLLLAAAAA</p></div> -->
+      <!-- <div class="linea-final-proyectos"> <p>LINEA FINALLLLL DE MIS PROYECTOOOSSS</p></div> -->
+    </div>
 
-  <!-- TECNOLOGIAS -->
-
-  <div id="skills" class="horizontal-padding vertical-padding">
-    <section class="skills">
-      <h2 class="skills-title"> Habilidades</h2>
-      <ul class="skills-list">
-        <li class="skills-skill">CSS</li>
-        <li class="skills-skill">HTML</li>
-        <li class="skills-skill">JavaScript</li>
-        <li class="skills-skill">Node.Js</li>
-        <li class="skills-skill">React.Js</li>
-        <li class="skills-skill">Github</li>
-        <li class="skills-skill">Redux</li>
-        <li class="skills-skill">pSQL</li>
-      </ul>
-    </section>
-  </div>
-  <!-- <div class="linea-final-skills"> <p>LINEA FINALLLLL DE   SKILLLLSSSS</p></div> -->
-
-  <!-- PROYECTOS DEL PORTFOLIO -->
-
- <!--  <div class="horizontal-padding vertical-padding"> -->
-    <div id="contact" class="portfolio">
-      <div class="portfolio-headings">
-        <h2> Mis proyectos </h2>
-        <br>
-        <br>
-        <!-- <div class="divider"></div> -->
-      </div>
-
-      <div class="container">
-
-        <div class="card">
-          <div  id="img_fondo_01" class="card__img" > </div>
-          <!-- <div  class="card__img"> <img src="Img/Custom-Shirts.png" alt=""> </div> -->
-          <div class="card__title"> 
-            <h2>Project description</h2>
-            <p>En este caso lo hicimos con otras tecnologhias cmomo  dfjaljfl asjja jasl la   dsajañllajs  jaljlkas jla lkasd l </p>
-
-          </div>
-          <div class="card__projects-links">
-            <a href="https://fonts.google.com/specimen/Montserrat?query=mon" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fa-sharp fa-solid fa-earth-americas"></i>
-            </a>
-            <a href="">
-              <i class="fa-solid fa-code"></i>
-            </a>
-          </div>
-          <div class="project-details-content">
-            <button class="project-details download-cv">
-              <a href="">
-                Project details
-              </a>
-            </button>
-          </div>
+    <!-- CONTACTAMEEEEE -->
+    <div id="contact" class="horizontal-padding vertical-padding">
+      <div class="contact-section">
+        <div class="contact-headings">
+          <h2>Nos mantenemos en contacto...</h2>
+          <div class="divider"></div>
         </div>
 
+        <div class="container-contact">
+          <img src="Img/yo_001.png" alt="" class="imagen_mia" />
+          <div class="contact-form">
+            <h4>Enviame un mensaje</h4>
 
-        <div class="card">
-          <div id="img_fondo_02" class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project description</h2>
-            <p>hecha con tecnolofía   react etc etc y adenas tuiiebe 24 ocmponentes hechos en talilwind con </p>
-          </div>
-          <div class="card__projects-links">
-            <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fa-sharp fa-solid fa-earth-americas"></i>
-            </a>
-            <a href="">
-              <i class="fa-solid fa-code"></i>
-            </a>
-          </div>
-          <div class="project-details-content">
-            <button class="project-details download-cv">
-              <a href="">
-                Project details
-              </a>
-            </button>
+            <form class="form">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+              <textarea placeholder="Place your message here..."> </textarea>
+              <button class="btn-submit">Enviame un mensaje</button>
+            </form>
           </div>
         </div>
-        
-
-        <div class="card">
-          <div id="img_fondo_03" class="card__img">
-          </div>
-          <div class="card__title">
-            <h2>Project description</h2>
-            <p> A este lo hice tambien con otras cosas como las que viennen de next js, ademas bootstrap y tailwind</p>
-          </div>
-          <div class="card__projects-links">
-            <a href="https://github.com/Anibal-Quiroz-P5/Portfolio_01" target="_blank">
-              <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="">
-              <i class="fa-sharp fa-solid fa-earth-americas"></i>
-            </a>
-            <a href="">
-              <i class="fa-solid fa-code"></i>
-            </a>
-          </div>
-          <div class="project-details-content">
-            <button class="project-details download-cv">
-              <a href="">
-                Project details
-              </a>
-            </button>
-          </div>
-        </div>
-
-
       </div>
     </div>
-    <!-- <div class="linea-final-proyectos"> <p>LINEA FINALLLLL DE MIS PROYECTOOOSSS</p></div> -->
-  <!-- </div> -->
 
-</body>
-
+    <!--     <div class="cube-loader">
+      <div class="cube-top"></div>
+      <div class="cube-wrapper">
+        <span style="--i:0" class="cube-span"></span>
+        <span style="--i:1" class="cube-span"></span>
+        <span style="--i:2" class="cube-span"></span>
+        <span style="--i:3" class="cube-span"></span>
+      </div>
+    </div> -->
+  </body>
 </html>

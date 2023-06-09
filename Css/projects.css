@@ -1,33 +1,6 @@
-/* 
-body {
-    font-size: 4rem;
-    font-family: sans-serif;
-    background-color: cornflowerblue;
-}
-
-.container {
-    background-color: black;
-    border-radius: 10px;
-    border: solid 2px red;
-}
-
-container > *  {
-    padding: 10px;
-    margin: 10px;
-    border: solid 1px black;
-    border-radius: 10px;
-    background-color: blue;
-}
-
-.container {
-    display: flex;
-} */
-
-
 
 .portfolio {
     width: 80%;
-    height: 100vh;
     text-align: center;
     margin: 0 auto;
 }
@@ -35,18 +8,17 @@ container > *  {
 .container {
     text-align: center;
     display: grid;
-    
-    /* max-width: 1485px; */
+    gap: 20px;
+    /* background-color: chartreuse; */
 }
 
 .card__img {
-    width: 100%;
-    height: 100px;
-    background-size: cover;
+    /* width: 100%;
+    height: 100%; */
+    
+    background-size:cover;
     text-align: center;
-    /* background-image: url(../Img/2-original.png); */
-    /* background-image: url(../Img/Custom-Shirts.png); */
-
+    margin: auto;
 }
 
 .project-details-content {
@@ -57,9 +29,6 @@ container > *  {
 }
 
 .portfolio-headings {
-    /*     
-            width: 100vw;
-            padding: 5em; */
             font-size: 20px;
             font-weight: bold;
             text-transform: uppercase;
@@ -67,17 +36,16 @@ container > *  {
 }
 
 .card {
-/*     width: 300px; */
-
     color: white;
-    height: 300px;
     background-color:#101e4b;
     margin: 1em;
+    /* border: 1px solid aqua; */
 }
 
 .card__projects-links {
     display: flex ;
     justify-content: space-evenly;
+    
 }
 
 .card__projects-links a {
@@ -119,18 +87,26 @@ container > *  {
     color: #191c32;
 }
 
+.project-details, 
+.download-cv {
+    background-color: aqua;
+}
 
 #img_fondo_01 {
     background-image: url(../Img/Custom-Shirts_2.png);
-    
+    /* object-fit: fill; */
+    /* object-fit:contain; */
+    /* object-fit:cover; */
 }
 
 #img_fondo_02 {
     background-image: url(../Img/mi_portfolio_2.png);
+
 }
 
 #img_fondo_03 {
     background-image: url(../Img/House_of_devs.png);
+    
 }
 
 .card__img {
@@ -155,46 +131,41 @@ container > *  {
     margin: 0 auto;
 } */
 
-.container {
-    
-    display: flex;
-    justify-content: space-between ;
-    /* margin-top: 1%; */
-    
-}
+
 
 .portfolio {
-    /* max-width: 980px; */
-    /* max-width: 1485px; */ 
-    max-width: 64%;
+    max-width: 78%;
     height: 65vh;
-    /* border: 5px solid white; */
-    /* background-color: chartreuse; */
+
+    /* background-color: yellow; */
     margin-top: 7%;
+
 }
 
-/* #img_fondo_01 {
-    background-image: url(../Img/Custom-Shirts_2.png);
-    
+
+.container {
+    display: flex;
+    justify-content: space-between ;
+    /* gap: 80px; */
+    /* gap: 20%; */
+    /* width: 80%; */
+    /* gap: 1%; */
 }
 
-#img_fondo_02 {
-    background-image: url(../Img/mi_portfolio_2.png);
-}
 
-#img_fondo_03 {
-    background-image: url(../Img/House_of_devs.png);
-}
- */
 .card__img {
-    width: 100%;
+/*     width: 100%;
     height: 200px;
-    /* background-size:; */
+    text-align: center; */
+        /* object-fit: fill; */
+    /* object-fit:contain; */
+    /* object-fit:cover; */
+    background-size:contain;
+    height: 150px;
     text-align: center;
-    /* background-image: url(../Img/2-original.png); */
-    /* background-image: url(../Img/Custom-Shirts.png); */
-
+    margin: auto;
 }
+
 
 .project-details-content {
     display: flex;
@@ -204,24 +175,24 @@ container > *  {
 }
 
 .portfolio-headings {
-    /*     
-            width: 100vw;
-            padding: 5em; */
-            /* font-size: 20px; */
             font-size: 30px;
             font-weight: bold;
             text-transform: uppercase;
             text-align: center;
-            /* margin-top: 1%; */
 }
 
 .card {
 /*     width: 300px; */
     color: white;
-    height: 450px;
+    /* height: 450px; */
+    height: 40vh;
+    /* max-height: 50%; */
     background-color:#101e4b;
     margin: 1em;
-    width: 350px;
+    /* width: 350px; */
+    /* width: 30%; */
+    max-width: 25%;
+    /* background-color: chocolate; */
 }
 
 .card__projects-links {
@@ -268,7 +239,5 @@ container > *  {
     color: #191c32;
 }
 
-.linea-final-proyectos {
-    border: 1px solid yellow;
-}
+
 }
