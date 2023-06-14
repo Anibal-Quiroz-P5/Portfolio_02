@@ -116,6 +116,15 @@
 }
 
 
+.card p {
+    /* color: coral; */
+    color: #26cfdb;
+    max-width: 80%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
 
   /* -----MEDIA QUERY  SKILLS  --------------------------------------------------- */
   
@@ -160,6 +169,7 @@
         /* object-fit: fill; */
     /* object-fit:contain; */
     /* object-fit:cover; */
+    max-width: 70%;
     background-size:contain;
     height: 150px;
     text-align: center;
@@ -193,6 +203,7 @@
     /* width: 30%; */
     max-width: 25%;
     /* background-color: chocolate; */
+    border: solid 2px  #93a7fd;
 }
 
 .card__projects-links {

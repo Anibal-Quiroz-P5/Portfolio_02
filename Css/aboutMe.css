@@ -70,7 +70,6 @@
     .aboutMe-img {
         width: 100%;
         max-width: 350px;
-        /* transform: scaleX(-1); */
     }
      
     .aboutMe {
@@ -82,7 +81,6 @@
         max-width: 66%;
         margin: 0 auto;
         align-items: center;
-        /* background-color:blueviolet; */
     }
     
     .aboutMe-title {
@@ -98,9 +96,5 @@
         font-size: 28px;
     }
 
-   .linea-final {
-/*         background-color: yellow ;
-        height: 5px; */
-     /*    border: 1px solid yellow; */
-    }
+
   }

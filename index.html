@@ -20,6 +20,8 @@
     <link rel="stylesheet" href="Css/skills.css" />
     <link rel="stylesheet" href="Css/projects.css" />
     <link rel="stylesheet" href="Css/contact.css" />
+    <link rel="stylesheet" href="Css/contactame.css" />
+    <link rel="stylesheet" href="Css/footer.css" />
     <!-- <link rel="stylesheet" href="Css/cube-loader.css"> -->
     <script
       src="https://kit.fontawesome.com/320a56fa34.js"
@@ -30,13 +32,19 @@
   </head>
 
   <body>
+    
     <header class="topheader">
       <nav class="topnav">
         <a href="#" class="logo">
           <img height="50" width="50" src="Img/mi foto.jpeg" alt="developer" />
           <div class="logo_texto">
-            Quiroz Anibal Daniel <br />
-            { code }
+            <!-- Quiroz Anibal Daniel <br /> -->
+            <!-- <div> -->
+              <audio autoplay controls class="sonido" >
+                <source src="The Weeknd-Save Your Tears.mp3" type="audio/mp3">
+                    Tu navegador no soporta audio HTML5.
+              </audio>
+            <!-- </div> -->
           </div>
         </a>
         <button class="open-menu" aria-label="Abrir menú">
@@ -71,14 +79,21 @@
             Desarrollador Full Stack, apasionado por los bits y por los códigos que puedo generar con ellos.
           </p>
           <!-- <button class="profile-btn">Descargar Cv</button> -->
-          <a download href="Img/CV Quiroz Anibal.pdf"><button class="profile-btn" download="">Descargar Cv</button>
+          <a download href="Img/CV  Quiroz Anibal.pdf"><button class="profile-btn" download="">Descargar Cv</button>
           </a>
+          
+          
+          
         </div>
         <span class="profile-img-section">
           <!-- <img class="profile-img" src="Img/professional-profile.png" alt="programador"> -->
           <img class="profile-img" src="Img/mi foto.jpeg" alt="programador" />
+          
           <div class="profile-img-line"></div>
+          
         </span>
+
+        
       </section>
     </div>
     <!-- <div class="linea-final">  <p> HOOOOOOOOLLLLLAAAAA</p></div> -->
@@ -105,7 +120,8 @@
           </p>
         </div>
         <span class="aboutMe-img-section">
-          <img class="aboutMe-img" src="Img/Screenshot from 2023-06-08 16-12-36.png" alt="programador" />
+          <!-- <img class="aboutMe-img" src="Img/Screenshot from 2023-06-08 16-12-36.png" alt="programador" /> -->
+          <img class="aboutMe-img" src="Img/pela.jpg" alt="programador" />
           <div class="aboutMe-img-line"></div>
         </span>
       </section>
@@ -152,11 +168,11 @@
               <p>
                 Proyecto grupal de una aplicación de remeras customizadas por el usuario. Se utilizaron las siguientes tecnologías: React, Tailwind, pSQL, NodeJs, etc.
               </p>
-              
+              <br>
             </div>
             <div class="card__projects-links">
               <a
-                href="https://fonts.google.com/specimen/Montserrat?query=mon"
+                href="https://github.com/Anibal-Quiroz-P5/ecommerce"
                 target="_blank"
               >
                 <i class="fa-brands fa-github"></i>
@@ -184,11 +200,12 @@
               </p>
               <br>
               <br>
+              <br>
               
             </div>
             <div class="card__projects-links">
               <a
-                href="https://github.com/Anibal-Quiroz-P5/Portfolio_01"
+                href="https://github.com/Anibal-Quiroz-P5/Portfolio_02"
                 target="_blank"
               >
                 <i class="fa-brands fa-github"></i>
@@ -215,10 +232,11 @@
                 Proyecto grupal de aplicación de inmobiliaria, su implementación permite reservar una cita para visitar 
                 una propiedad con el objetivo de alquilarla o comprar la misma.
               </p>
+              <br>
             </div>
             <div class="card__projects-links">
               <a
-                href="https://github.com/Anibal-Quiroz-P5/Portfolio_01"
+                href="https://github.com/Anibal-Quiroz-P5/house-of-dev"
                 target="_blank"
               >
                 <i class="fa-brands fa-github"></i>
@@ -242,7 +260,9 @@
     </div>
 
     <!-- CONTACTAMEEEEE -->
-    <div id="contact" class="horizontal-padding vertical-padding">
+
+
+<!--     <div id="contact" class="horizontal-padding vertical-padding">
       <div class="contact-section">
         <div class="contact-headings">
           <h2>Nos mantenemos en contacto...</h2>
@@ -255,24 +275,89 @@
             <h4>Enviame un mensaje</h4>
 
             <form class="form">
-              <input type="text" placeholder="Name" />
-              <input type="email" placeholder="Email" />
-              <textarea placeholder="Place your message here..."> </textarea>
-              <button class="btn-submit">Enviame un mensaje</button>
+              <input name= "name" type="text" placeholder="Name" />
+              <input name="email" type="email" placeholder="Email" />
+              <textarea name="message" placeholder="Place your message here..."> </textarea>
+              <button type="submit" class="btn-submit">Enviame un mensaje</button>
             </form>
           </div>
         </div>
       </div>
-    </div>
-
-    <!--     <div class="cube-loader">
-      <div class="cube-top"></div>
-      <div class="cube-wrapper">
-        <span style="--i:0" class="cube-span"></span>
-        <span style="--i:1" class="cube-span"></span>
-        <span style="--i:2" class="cube-span"></span>
-        <span style="--i:3" class="cube-span"></span>
-      </div>
     </div> -->
+
+    <div id="contact" class="horizontal-padding vertical-padding"></div>
+    <section class="contact">
+      <div class="u-wrapper">
+        <div class="contact-content">
+  
+          <form id="form" class="form"   action="https://formspree.io/f/xdovrqvr" method="POST">
+            <h3 class="tag"><span>HABLEMOS</span></h3>
+            <label for="name">Nombre Completo <span>*</span></label>
+            <input name="name" required type="text" id="name" placeholder="Juan">
+            <label for="email">Correo electrónico <span>*</span></label>
+            <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn primary full">enviar mensaje</button>
+          </form>
+          <a href="mailto:anibal1.d.quiroz@gmail.com" id="trucazo"></a>
+        </div>
+      </div>
+
+
+      <footer class="footer">
+        <div class="footer-content">
+          <h2> Anibal Quiroz</h2>
+          <h5> Desarrollador Full Stack</h5>
+        </div>
+        <div class="sotial-network">
+          <a
+          href="https://www.linkedin.com/in/anibal-quiroz-full-stack-javascript-p5/"
+          target="_blank"
+        >
+        <i class="fab fa-linkedin"></i>
+        </a>
+  
+        <a
+        href="https://github.com/Anibal-Quiroz-P5/house-of-dev"
+        target="_blank"
+      >
+      <i class="fab fa-twitter"></i>
+      </a>   
+        </div>
+      </footer>
+
+
+
+    </section>
+  </div>
+
+    <!-- FOOTER -->
+
+    <!-- <div id="contact" class="horizontal-padding vertical-padding"></div>
+    <footer class="footer">
+      <div class="footer-content">
+        <h2> Anibal Quiroz</h2>
+        <h5> Desarrollador Full Stack</h5>
+      </div>
+      <div class="sotial-network">
+        <a
+        href="https://www.linkedin.com/in/anibal-quiroz-full-stack-javascript-p5/"
+        target="_blank"
+      >
+      <i class="fab fa-linkedin"></i>
+      </a>
+
+      <a
+      href="https://github.com/Anibal-Quiroz-P5/house-of-dev"
+      target="_blank"
+    >
+    <i class="fab fa-twitter"></i>
+    </a>   
+      </div>
+    </footer>
+  </div> -->
+
+    <script src="js/correo.js"></script>
   </body>
 </html>

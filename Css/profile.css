@@ -49,7 +49,8 @@
  }
 
  .profile-btn {
-    background-color: var(--primary-color); 
+    background-color: var(--primary-color);  
+    background-color: #0b9c75;
     color: var(--text-color-inverse);
     border: none;
     font-size: 20px;
