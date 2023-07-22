@@ -74,6 +74,9 @@ Para la construccion del mismo básicamente :
 
 3- Se crearon las carpetas y archivos del back según la siguiente estructura básica:
 
+
+
+
 ![Alt text](image-5.png)
 
 4- Se generó el archivo “package.json” con el comando:
