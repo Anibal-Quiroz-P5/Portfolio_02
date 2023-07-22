@@ -206,3 +206,7 @@ Para la construccion del mismo básicamente se llevaron a cabo los siguientes pa
 
 Se realizaron distintas pruebas y se comprobó que el repositorio “deliverit-front” quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
 
+
+Branching Strategy
+Our repository will have two main branches with an infinite lifetime:
+    1. Main: This branch will contain the official release history, and each commit on this branch will represent a new production release. All the code in the master branch is deployable and is essentially production-
