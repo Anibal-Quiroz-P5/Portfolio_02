@@ -60,9 +60,9 @@ Our team will be using the GitFlow workflow for managing the development and mai
 ----------------------------------------------------------------------------------
 
 
-Proceso de creación del proyecto
+## Proceso de creación del proyecto
 
-Back end
+# Back end
 
 La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express, NodeJs, Typescript y archivos agregados de configuración, necesarios para que la aplicación pueda trabajar con Docker. 
 
@@ -210,3 +210,6 @@ Se realizaron distintas pruebas y se comprobó que el repositorio “deliverit-f
 ---------------------xxxxxxxxxxxxxx-------------xxxxxxxxxxxxxxxxx--------------
 
 [label](<../../ACELERACION   --  POST BC/borrar.pdf>)
+
+[label](<../../ACELERACION   --  POST BC/borrar.pdf>)
+
