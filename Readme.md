@@ -59,11 +59,57 @@ Our team will be using the GitFlow workflow for managing the development and mai
 
 ----------------------------------------------------------------------------------
 
-		DOCUMENTACION DEL BACK END DEL PROYECTO
 
-El equipo creó el repositorio llamado DELIVERIT-BACK , lo hizo público, e incluyó a los integrantes del grupo como colaboradores del mismo.
-Después de clonar el repositorio vacío a la pc el grupo creó las carpetas y archivos vacíos para obtener el siguiente esquema:
+Crear el back end
 
-![Alt text](image.png)
+En Github crear un repositorio vacío con nombre “ deliverit-back ”
 
-![Alt text](image-1.png)
+Clonar el repositorio a la computadora		$ git clone		
+
+En la carpeta del proyecto clonado, crear las carpetas y archivos segun la siguiente estructura:
+
+![Alt text](image-2.png)
+
+Generar el archivo “ package.json ”:			$ npm init 		
+Instalar Typescript					$ npm i typescript –save-dev
+
+Agregar las siguientes dependencias al archivo “ package.json ”:
+
+![Alt text](image-3.png)
+
+Crear el archivo de configuración tsconfig.json para Typescript con el comando:
+	$ npx tsc –init
+
+
+La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express  NodeJs . 
+
+Para la construccion del mismo básicamente :
+1- Se creó un repositorio (vacío) en Github 
+2- Se clonó ese repositorio a la computadora de trabajo
+3- Se crearon las carpetas y archivos del back según la siguiente estructura básica:
+
+![Alt text](image-4.png)
+
+4- Se generó el archivo “package.json” con el comando:
+
+	$ npm init
+
+5- Se instaló Typescript con el comando:
+
+	$ npm i typescript –save-dev
+
+6- Se agregaron en el archivo “package.json” las dependencias a utilizar para posteriormente ser   
+     instaladas.
+
+7- Se creó el archivo de configuración para Typescript con:
+
+	“ $ npx tsc –init “ 
+
+8- Se creó la carpeta “dist” en la raiz de  “deliverit-back”
+
+9- A cada una de las carpetas del proyecto se les agregó en su interior un archivo “ index.ts ” para 
+    que no se suban todas a Github.
+
+10- Dentro de la carpetas “github / workflows” se crea un arch “push.yml”
+
+11- Se completa el arch “.gitignore” con:
