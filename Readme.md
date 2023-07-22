@@ -138,4 +138,71 @@ Para la construccion del mismo básicamente :
 
 Se realizaron distintas pruebas y se comprobó que el repositorio “ deliverit-back “ quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
 
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+Front-End
+
+La parte front-end del proyecto llamado “ deliverit-front “ utiliza como framework a NextJs, y también los siguientes lenguajes, librerias, frameworks y archivos agregados de configuración, necesarios para que la aplicación pueda trabajar con Docker:
+
+Typescript, React, Tailwind.
+
+
+Para la construccion del mismo básicamente se llevaron a cabo los siguientes pasos:
+
+
+1- En la computadora de trabajo se creó una carpeta de proyecto llamada “deliverit-front”.  
+
+2- Se instaló el framework de NextJs por medio del siguiente comando:
+
+	$ npx create-next-app@latest
+
+3- Como resultado del comando anterior se creó automaticamente la siguiente estructura para el 
+     Front-End:
+
+![Alt text](image-18.png)
+
+
+4- En el raiz se crearon (manualmente) la carpetas “ Components ”  y  “ utils ” además dentro de c/u 
+     de ellas se agregó un arch “ index.tsx ”.
+
+5- En el raiz se creó (manualmente) la carpeta “ styles ” y dentro de ella se agregó un arch
+     “globals.css ”:
+
+![Alt text](image-19.png)
+
+
+6- Se completó el contenido del archivo “ tsconfig.json ”.
+
+7- En el raiz se crearon las carpetas “ services ”,  “ hooks ”, “ redux ”, “ adapters ”, “ interceptors ” 
+     (esta última para interceptar los axios) y dentro de c/u de ellas crea el arch correspondiente 
+     “index.ts ”.
+
+8- Para la configuración del archivo “.eslintrc.json ” se adoptó la configuración recomendada en las 
+    indicaciones del proyecto cuyo link es:  
+     https://github.com/Faridmurzone/linters-and-config  
+
+
+9- Se creó manuelmente el archivo “ Dockerfile ” y se le definió el siguiente contenido:
+
+![Alt text](image-20.png)
+
+
+10- Se creó manuelmente el archivo “ docker-compose.yml ” y se le definió el siguiente contenido:
+
+![Alt text](image-21.png)
+
+
+11- Se sube el proyecto al repositorio vacío previamente creado en Github, con el siguiente 
+      comando:
+
+	$ git remote add origin https://github.com/FacundoInza/deliverit-front.git
+
+    y el resultado obtenido es el siguiente:
+
+![Alt text](image-22.png)
+
+
+Se realizaron distintas pruebas y se comprobó que el repositorio “deliverit-front” quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
 
