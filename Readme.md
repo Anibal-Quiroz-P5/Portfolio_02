@@ -109,7 +109,7 @@ Para la construccion del mismo básicamente :
 
 12- Se creó en el raiz el archivo “ .env ” y se completó con:
 
-![Alt text](image-7.png)
+![Alt text](image-17.png)
 
 
 13- En el raiz se creó el arch  “docker-compose.yml” con lo cual la estructura de carpetas y archivos fue adquiriendo 
