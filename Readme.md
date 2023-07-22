@@ -75,72 +75,72 @@ La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express, N
 
 Para la construccion del mismo básicamente :
 
-1- Se creó un repositorio (vacío) en Github.
+1. Se creó un repositorio (vacío) en Github.
 
-2- Se clonó ese repositorio a la computadora de trabajo.
+2. Se clonó ese repositorio a la computadora de trabajo.
 
-3- Se crearon las carpetas y archivos del back según la siguiente estructura básica:
+3. Se crearon las carpetas y archivos del back según la siguiente estructura básica:
 
 
 
 
 ![Alt text](image-5.png)
 
-4- Se generó el archivo “package.json” con el comando:
+4. Se generó el archivo “package.json” con el comando:
 
 	$ npm init
 
-5- Se instaló Typescript con el comando:
+5. Se instaló Typescript con el comando:
 
 	$ npm i typescript –save-dev
 
 
-6- Se agregaron en el archivo “package.json” las dependencias a utilizar para posteriormente ser instaladas.
+6. Se agregaron en el archivo “package.json” las dependencias a utilizar para posteriormente ser instaladas.
 
-7- Se creó el archivo de configuración para Typescript con:
+7. Se creó el archivo de configuración para Typescript con:
 
 	$ npx tsc –init
 
 
-8- Se creó la carpeta “dist” en la raiz de  “deliverit-back”
+8. Se creó la carpeta “dist” en la raiz de  “deliverit-back”
 
-9- A cada una de las carpetas del proyecto se les agregó en su interior un archivo “ index.ts ” para que no se suban 
+9. A cada una de las carpetas del proyecto se les agregó en su interior un archivo “ index.ts ” para que no se suban 
    todas a Github.
 
-10- Dentro de la carpetas “github / workflows” se crea un arch “push.yml”
+10. Dentro de la carpetas “github / workflows” se crea un arch “push.yml”
 
-11- Se completa el arch “.gitignore” con:
+11. Se completa el arch “.gitignore” con:
 
 ![Alt text](image-6.png)
 
 
-12- Se creó en el raiz el archivo “ .env ” y se completó con:
+12. Se creó en el raiz el archivo “ .env ” y se completó con:
 
 ![Alt text](image-17.png)
 
 
-13- En el raiz se creó el arch  “docker-compose.yml” con lo cual la estructura de carpetas y archivos fue adquiriendo 
+13. En el raiz se creó el arch  “docker-compose.yml” con lo cual la estructura de carpetas y archivos fue adquiriendo 
     la siguiente forma:
 
 ![Alt text](image-8.png)
 
 
-14- El archivo “ dockerfile ” que contiene la configuración para crear la imagen se completó así:
+14. El archivo “ dockerfile ” que contiene la configuración para crear la imagen se completó así:
 
 ![Alt text](image-16.png)
 
 
-15- El arch “ docker-compose.yml ” se completó con el siguiente contenido:
+15. El arch “ docker-compose.yml ” se completó con el siguiente contenido:
 
 ![Alt text](image-10.png)
 
 
-16- Se subió el repositorio básico inicial a Github y el resultado obtenido fué el siguiente:
+16. Se subió el repositorio básico inicial a Github y el resultado obtenido fué el siguiente:
 
 ![Alt text](image-11.png)
 
 
-17- En Github se creó la rama “ develop ” y se la seleccionó como rama default.
+17. En Github se creó la rama “ develop ” y se la seleccionó como rama default.
 
 
 Se realizaron distintas pruebas y se comprobó que el repositorio “ deliverit-back “ quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
@@ -149,7 +149,7 @@ Se realizaron distintas pruebas y se comprobó que el repositorio “ deliverit-
 
 
 
-Front-End
+## Front-End
 
 La parte front-end del proyecto llamado “ deliverit-front “ utiliza como framework a NextJs, y también los siguientes lenguajes, librerias, frameworks y archivos agregados de configuración, necesarios para que la aplicación pueda trabajar con Docker:
 
@@ -159,49 +159,49 @@ Typescript, React, Tailwind.
 Para la construccion del mismo básicamente se llevaron a cabo los siguientes pasos:
 
 
-1- En la computadora de trabajo se creó una carpeta de proyecto llamada “deliverit-front”.  
+1. En la computadora de trabajo se creó una carpeta de proyecto llamada “deliverit-front”.  
 
-2- Se instaló el framework de NextJs por medio del siguiente comando:
+2. Se instaló el framework de NextJs por medio del siguiente comando:
 
 	$ npx create-next-app@latest
 
-3- Como resultado del comando anterior se creó automaticamente la siguiente estructura para el 
+3. Como resultado del comando anterior se creó automaticamente la siguiente estructura para el 
      Front-End:
 
 ![Alt text](image-18.png)
 
 
-4- En el raiz se crearon (manualmente) la carpetas “ Components ”  y  “ utils ” además dentro de c/u 
+4. En el raiz se crearon (manualmente) la carpetas “ Components ”  y  “ utils ” además dentro de c/u 
      de ellas se agregó un arch “ index.tsx ”.
 
-5- En el raiz se creó (manualmente) la carpeta “ styles ” y dentro de ella se agregó un arch
+5. En el raiz se creó (manualmente) la carpeta “ styles ” y dentro de ella se agregó un arch
      “globals.css ”:
 
 ![Alt text](image-19.png)
 
 
-6- Se completó el contenido del archivo “ tsconfig.json ”.
+6. Se completó el contenido del archivo “ tsconfig.json ”.
 
-7- En el raiz se crearon las carpetas “ services ”,  “ hooks ”, “ redux ”, “ adapters ”, “ interceptors ” 
+7. En el raiz se crearon las carpetas “ services ”,  “ hooks ”, “ redux ”, “ adapters ”, “ interceptors ” 
      (esta última para interceptar los axios) y dentro de c/u de ellas crea el arch correspondiente 
      “index.ts ”.
 
-8- Para la configuración del archivo “.eslintrc.json ” se adoptó la configuración recomendada en las 
+8. Para la configuración del archivo “.eslintrc.json ” se adoptó la configuración recomendada en las 
     indicaciones del proyecto cuyo link es:  
      https://github.com/Faridmurzone/linters-and-config  
 
 
-9- Se creó manuelmente el archivo “ Dockerfile ” y se le definió el siguiente contenido:
+9. Se creó manuelmente el archivo “ Dockerfile ” y se le definió el siguiente contenido:
 
 ![Alt text](image-20.png)
 
 
-10- Se creó manuelmente el archivo “ docker-compose.yml ” y se le definió el siguiente contenido:
+10. Se creó manuelmente el archivo “ docker-compose.yml ” y se le definió el siguiente contenido:
 
 ![Alt text](image-21.png)
 
 
-11- Se sube el proyecto al repositorio vacío previamente creado en Github, con el siguiente 
+11. Se sube el proyecto al repositorio vacío previamente creado en Github, con el siguiente 
       comando:
 
 	$ git remote add origin https://github.com/FacundoInza/deliverit-front.git
