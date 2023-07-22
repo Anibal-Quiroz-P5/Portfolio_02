@@ -64,7 +64,7 @@ Proceso de creación del proyecto
 
 Back end
 
-La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express, NodeJs y Typescript. 
+La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express, NodeJs, Typescript y archivos agregados de configuración, necesarios para que la aplicación pueda trabajar con Docker. 
 
 Para la construccion del mismo básicamente :
 
