@@ -64,6 +64,6 @@ Our team will be using the GitFlow workflow for managing the development and mai
 El equipo creó el repositorio llamado DELIVERIT-BACK , lo hizo público, e incluyó a los integrantes del grupo como colaboradores del mismo.
 Después de clonar el repositorio vacío a la pc el grupo creó las carpetas y archivos vacíos para obtener el siguiente esquema:
 
-                               ![Alt text](image.png)
+![Alt text](image.png)
 
 ![Alt text](image-1.png)
