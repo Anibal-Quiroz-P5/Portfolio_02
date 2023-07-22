@@ -214,9 +214,3 @@ Para la construccion del mismo básicamente se llevaron a cabo los siguientes pa
 Se realizaron distintas pruebas y se comprobó que el repositorio “deliverit-front” quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
 
 
----------------------xxxxxxxxxxxxxx-------------xxxxxxxxxxxxxxxxx--------------
-
-[label](<../../ACELERACION   --  POST BC/borrar.pdf>)
-
-[label](<../../ACELERACION   --  POST BC/borrar.pdf>)
-
