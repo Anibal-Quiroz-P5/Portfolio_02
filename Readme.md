@@ -60,35 +60,21 @@ Our team will be using the GitFlow workflow for managing the development and mai
 ----------------------------------------------------------------------------------
 
 
-Crear el back end
+Proceso de creación del proyecto
 
-En Github crear un repositorio vacío con nombre “ deliverit-back ”
+Back end
 
-Clonar el repositorio a la computadora		$ git clone		
-
-En la carpeta del proyecto clonado, crear las carpetas y archivos segun la siguiente estructura:
-
-![Alt text](image-2.png)
-
-Generar el archivo “ package.json ”:			$ npm init 		
-Instalar Typescript					$ npm i typescript –save-dev
-
-Agregar las siguientes dependencias al archivo “ package.json ”:
-
-![Alt text](image-3.png)
-
-Crear el archivo de configuración tsconfig.json para Typescript con el comando:
-	$ npx tsc –init
-
-
-La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express  NodeJs . 
+La parte back-end del proyecto llamado “ deliverit-back “ utiliza Express, NodeJs y Typescript. 
 
 Para la construccion del mismo básicamente :
-1- Se creó un repositorio (vacío) en Github 
-2- Se clonó ese repositorio a la computadora de trabajo
+
+1- Se creó un repositorio (vacío) en Github.
+
+2- Se clonó ese repositorio a la computadora de trabajo.
+
 3- Se crearon las carpetas y archivos del back según la siguiente estructura básica:
 
-![Alt text](image-4.png)
+![Alt text](image-5.png)
 
 4- Se generó el archivo “package.json” con el comando:
 
@@ -98,18 +84,55 @@ Para la construccion del mismo básicamente :
 
 	$ npm i typescript –save-dev
 
-6- Se agregaron en el archivo “package.json” las dependencias a utilizar para posteriormente ser   
-     instaladas.
+
+6- Se agregaron en el archivo “package.json” las dependencias a utilizar para posteriormente ser instaladas.
 
 7- Se creó el archivo de configuración para Typescript con:
 
-	“ $ npx tsc –init “ 
+	$ npx tsc –init
+
 
 8- Se creó la carpeta “dist” en la raiz de  “deliverit-back”
 
-9- A cada una de las carpetas del proyecto se les agregó en su interior un archivo “ index.ts ” para 
-    que no se suban todas a Github.
+9- A cada una de las carpetas del proyecto se les agregó en su interior un archivo “ index.ts ” para que no se suban 
+   todas a Github.
 
 10- Dentro de la carpetas “github / workflows” se crea un arch “push.yml”
 
 11- Se completa el arch “.gitignore” con:
+
+![Alt text](image-6.png)
+
+
+12- Se creó en el raiz el archivo “ .env ” y se completó con:
+
+![Alt text](image-7.png)
+
+
+13- En el raiz se creó el arch  “docker-compose.yml” con lo cual la estructura de carpetas y archivos fue adquiriendo 
+    la siguiente forma:
+
+![Alt text](image-8.png)
+
+
+14- El archivo “ dockerfile ” que contiene la configuración para crear la imagen se completó así:
+
+![Alt text](image-9.png)
+
+
+15- El arch “ docker-compose.yml ” se completó con el siguiente contenido:
+
+![Alt text](image-10.png)
+
+
+16- Se subió el repositorio básico inicial a Github y el resultado obtenido fué el siguiente:
+
+![Alt text](image-11.png)
+
+
+17- En Github se creó la rama “ develop ” y se la seleccionó como rama default.
+
+
+Se realizaron distintas pruebas y se comprobó que el repositorio “ deliverit-back “ quedó funcionando y en condiciones para comenzar a desarrollar las funcionalidades para el siguiente sprint.
+
+
