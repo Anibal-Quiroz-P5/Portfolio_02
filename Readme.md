@@ -60,6 +60,13 @@ Our team will be using the GitFlow workflow for managing the development and mai
 ----------------------------------------------------------------------------------
 
 
+
+
+
+
+
+
+
 # Proceso de creación del proyecto
 
 ## Back end
