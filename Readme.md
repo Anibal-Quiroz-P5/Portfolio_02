@@ -117,7 +117,7 @@ Para la construccion del mismo básicamente :
 
 14- El archivo “ dockerfile ” que contiene la configuración para crear la imagen se completó así:
 
-![Alt text](image-9.png)
+![Alt text](image-12.png)
 
 
 15- El arch “ docker-compose.yml ” se completó con el siguiente contenido:
