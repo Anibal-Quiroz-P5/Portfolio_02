@@ -72,7 +72,7 @@ The basic steps for its construction were as follows:
 
 2. Clone the repository to the local computer.
 
-3. Create the folders and files for the back-end following this basic structure:
+3. Manually create the empty folders and files for the back-end by following this basic structure:
 
 ![Alt text](image-5.png)
 
