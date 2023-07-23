@@ -102,32 +102,32 @@ The basic steps for its construction were as follows:
 
 11. Complete the ".gitignore" file with:
 
-![Alt text](image-6.png)
+![Alt text](public/images/image-6.png)
 
 
 12. Create the ".env" file in the root and fill it with the required configuration:
 
-![Alt text](image-17.png)
+![Alt text](public/images/image-17.png)
 
 
 13. Create the "docker-compose.yml" file in the root, shaping the folder and file structure as follows:
 
-![Alt text](image-8.png)
+![Alt text](public/images/image-8.png)
 
 
 14. Complete the "dockerfile" with the configuration to build the image:
 
-![Alt text](image-16.png)
+![Alt text](public/images/image-16.png)
 
 
 15. Complete the "docker-compose.yml" file with the following content:
 
-![Alt text](image-10.png)
+![Alt text](public/images/image-10.png)
 
 
 16. Push the initial basic repository to Github, resulting in:
 
-![Alt text](image-11.png)
+![Alt text](public/images/image-11.png)
 
 
 17. Create a branch called "develop" on Github and set it as the default branch.
