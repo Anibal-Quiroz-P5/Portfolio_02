@@ -74,7 +74,7 @@ The basic steps for its construction were as follows:
 
 3. Manually create the empty folders and files for the back-end by following this basic structure:
 
-![Alt text](image-5.png)
+![Alt text](public/images/image-5.png)
 
 
 4. Generate the "package.json" file with the command:
