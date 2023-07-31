@@ -201,31 +201,31 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 Deliverit-Back
 
--- .github/
-				push.yml
--- .husky/
+- --.github/
+				- push.yml
+- --.husky/
 			  .gitignore
 				husky.sh
 			pre-commit
--- config/
+- --config/
 
--- dist/
+- --dist/
 
--- public/
-			--images/
+- --public/
+			- --images/
 
--- src/
-			--controllers/
+- --src/
+			- --controllers/
 
-			--middlewares/
+			- --middlewares/
 
-			--models
+			- --models/
 
-			--repositories
+			- --repositories/
 
-			--routes
+			- --routes/
 
-			--services
+			- --services/
 
 			server.ts
 
@@ -242,7 +242,7 @@ Deliverit-Back
 ## Estructura de Carpetas
 
 - --controllers/
-  - index.js
+  index.js
   - -pepe.jsx
 - --middlewares/
   - --index.js
