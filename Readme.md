@@ -172,15 +172,24 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 - app/
   - (PrincipalFlow)/
-    - home
-    - on course
-    - packages
-  - login
-  - signup
-- components
-- pages
-- public
-- styles
+    - home/
+    - on course/
+    - packages/
+  - (User)/  
+    - login
+    - signup
+- components/
+    - commons/
+    - ui/
+- hooks/
+- interceptors/
+- interfaces/
+- public/
+- redux/
+- services/
+- styles/
+- utils/
+
 
   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
