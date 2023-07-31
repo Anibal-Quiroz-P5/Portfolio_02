@@ -135,9 +135,14 @@ Our team performed various tests to ensure that the "deliverit-front" repository
   - .gitignore.yml
   - .husky.sh
   - precommit
-- adapters/  
+    - This folder is for Git configuration in the project and it contain files that automate certain Git tasks.  
+- adapters/
+    - Contain adapters, which are modules responsible for interacting with external services or APIs. 
 - app/
+    - This folder represents the main application code. 
   - (PrincipalFlow)/
+    - This subfolder represents the main flow of the application and contains the subfolders  home/, on course/, and packages/, which likely correspond to different pages or sections of the application.
+ 
     - home/
     - on course/
     - packages/
