@@ -73,7 +73,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 - `.github/workflows/`
   - `push.yml`
-		   This folder is intended for GitHub Actions workflows, which are automated processes that run when certain events occur in your repository.
+		 -  This folder is intended for GitHub Actions workflows, which are automated processes that run when certain events occur in your repository.
 - `.husky/`
  			This folder is intended for Husky, a tool that allows you to add Git hooks to your project.
   - `.gitignore`
