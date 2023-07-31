@@ -126,7 +126,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 ## Estructura de Carpetas del front-end
 
-## HHHHHOOOLLLAAAA
+
 
 - .github/workflows   
   - push.yml
@@ -171,8 +171,6 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - utils/
     - contain utility functions or helper modules that provide common functionality used throughout the application.
 
-
-  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
