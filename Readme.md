@@ -200,9 +200,10 @@ To create the front-end project, follow these steps:
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
 
 Deliverit-Back
+## Estructura de Carpetas
 
 - --.github/
-				  - push.yml
+		- push.yml
 - --.husky/
 			    - .gitignore
 				  - husky.sh
