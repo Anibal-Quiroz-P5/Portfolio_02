@@ -62,26 +62,22 @@ Our team will be using the GitFlow workflow for managing the development and mai
 
 # Project Creation Process
 
-## Front end
-
-The front-end part of the project named **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
-
-
-
-
 ## Front-End
 
-The front-end part of the project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
+The project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
 
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
 
 
-## Estructura de Carpetas
+## Estructura de Carpetas del back-end
 
-- `.github/workflows/`: carpeta destinada a...
+- `.github/workflows/`
   - `push.yml`
-- `.husky/`: carpeta destinada a...
+		   This folder is intended for GitHub Actions workflows, which are automated processes that run when certain events occur in your repository.
+- `.husky/`
+ 			This folder is intended for Husky, a tool that allows you to add Git hooks to your project.
   - `.gitignore`
+			This file is a Git ignore file that specifies files and directories that should be ignored by Git.
   - `husky.sh`
   - `precommit`
 - `config/`: carpeta destinada a...
@@ -96,15 +92,4 @@ Our team performed various tests to ensure that the "deliverit-front" repository
   - `services/`: carpeta destinada a...
 - `tests/`: carpeta destinada a...
 
-## Setup:
-Install the dependencies.
-
-To run the application in development:
-$ npm run dev
-
-To run the application in production:
-$ npm run build
-
-To view the front-end result, put in the browser:
-http://localhost:3000
 
