@@ -173,7 +173,6 @@ Our team performed various tests to ensure that the "deliverit-front" repository
   - app
   - (PrincipalFlow)
     - home
-      - Archivos relacionados con la página de inicio
     - on course
     - packages
   - login
