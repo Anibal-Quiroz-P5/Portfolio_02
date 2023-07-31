@@ -80,25 +80,25 @@ Our team performed various tests to ensure that the "deliverit-front" repository
   - `precommit`
   - This folder is for Husky, that allows to add Git hooks to our project.
 - `config/`: 
-  - carpeta destinada a...
+  - For configuration files.
 - `dist/`: 
-  - carpeta destinada a...
+  - Folder generated when we build our project, and it contains the files necessary to run the system on a server.
 - `public/images/`: 
   - carpeta destinada a...
 - `src/`: 
   - `controllers/`: 
-    - carpeta destinada a...
+    - The controllers handle the logic of our application.
   - `middlewares/`: 
-    - carpeta destinada a...
+    - This folder is intended for the middlewares which are functions that are executed before the controllers.
   - `models/`: 
-    - carpeta destinada a...
+    -  for the models of our project, which represent the data of our application.
   - `repositories/`: 
-    - carpeta destinada a...
+    - Are  repositories of your project, which handle the communication with the database.
   - `routes/`: 
-    - carpeta destinada a...
+    - This folder is intended for the routes of our project, which define the endpoints of our API.
   - `services/`: 
-    - carpeta destinada a...
-- `tests/`: 
-  - carpeta destinada a...
+    -  For the services of your project, which handle the business logic of our application.
+- `tests/`: This folder is intended for the tests of our project.
+  - 
 
 
