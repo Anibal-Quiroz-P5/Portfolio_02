@@ -130,8 +130,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 - .github/workflows   
   - push.yml
-    - This folder contains GitHub Actions workflows.
-    - The file defines the actions to be performed when pushing changes to the repository. 
+    - This folder contains GitHub Actions workflows and the file defines the actions to be performed when pushing changes to the repository. 
 - .husky/
   - .gitignore.yml
   - .husky.sh
