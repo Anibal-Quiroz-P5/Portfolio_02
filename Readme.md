@@ -238,3 +238,21 @@ Deliverit-Back
 -- .gitignore
 
 
+
+## Estructura de Carpetas
+
+- --controllers
+  - --index.js
+  - --pepe.jsx
+- --middlewares
+  - --index.js
+  - --pepe.jsx
+- --models
+  - --index.js
+  - --pepe.jsx
+- --views
+  - --index.js
+  - --pepe.jsx
+- --utils
+  - --index.js
+  - --pepe.jsx
