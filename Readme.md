@@ -117,7 +117,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 -----------------------------------------------------------
 
-## Back-End
+## Front-End
 
 The project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
 
@@ -125,6 +125,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 
 ## Estructura de Carpetas del front-end
+
 - `.github/workflows/`: 
   - `push.yml`
   - This folder is intended for GitHub Actions workflows
