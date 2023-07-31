@@ -151,10 +151,13 @@ Our team performed various tests to ensure that the "deliverit-front" repository
     - login
     - signup
 - components/
+    - This folder contains reusable components that can be used throughout the application.
     - commons/
     - ui/
 - hooks/
+    - This folder may contain custom React hooks.
 - interceptors/
+    - This folder may contain interceptors, which are modules responsible for intercepting and modifying requests or responses in an application.Interceptors are commonly used for tasks such as authentication, error handling, or data transformation. 
 - interfaces/
 - public/
 - redux/
