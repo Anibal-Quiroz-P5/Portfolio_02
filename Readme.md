@@ -57,10 +57,10 @@ test
 
 Our team will be using the GitFlow workflow for managing the development and maintenance of our application, DeliverIT as a solution to the problem of maintaining a software project in which several developers or teams are collaborating.
 
-----------------------------------------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 
-# Descripción del proyecto
+# Project description
 
 ## Project Repository about a Package Distribution Application
 
@@ -75,6 +75,7 @@ The application will have the presence of two main roles:
   - Editing delivery addresses.
   - Monitoring the delivery of packages by the drivers throughout the day.
 
+
 ## Back-End
 
 The project named  **deliverit-back**  uses Express, NodeJs, Typescript, and configuration files necessary for the application to work with Docker.
@@ -83,11 +84,11 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 
 
-## Estructura de Carpetas del back-end
+## Back-end folder structure
 
 - `.github/workflows/`: 
   - `push.yml`
-  - This folder is intended for GitHub Actions workflows
+  - This folder contains GitHub Actions workflows and the file defines the actions to be performed when pushing changes to the repository.
 - `.husky/`: 
   - `.gitignore`
   - `husky.sh`
@@ -107,7 +108,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
   - `models/`: 
     -  for the models of our project, which represent the data of our application.
   - `repositories/`: 
-    - Are  repositories of your project, which handle the communication with the database.
+    - They're repositories of your project, which handle the communication with the database.
   - `routes/`: 
     - This folder is intended for the routes of our project, which define the endpoints of our API.
   - `services/`: 
@@ -115,16 +116,36 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - `tests/`: 
   - This folder is intended for the tests of our project.
 
------------------------------------------------------------
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# Project description
+
+## Project Repository about a Package Distribution Application
+
+This project is about an application for a package distribution company that manages delivery drivers responsible for distributing packages. Each driver will receive a certain number of packages during the day to be delivered to customers with different addresses.
+
+The application will have the presence of two main roles:
+
+- **Package Delivery Driver Role**: This role is responsible for receiving the package delivery requests for the day and has the freedom to choose the order of delivery.
+
+- **Administrator Role**: The administrator role is responsible for:
+  - Assigning/reassigning packages.
+  - Editing delivery addresses.
+  - Monitoring the delivery of packages by the drivers throughout the day.
+
+- **This front-end repository is only intended for the functionalities of the "Package Delivery Driver Role"**
+
 
 ## Front-End
+
 
 The project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
 
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
 
 
-## Estructura de Carpetas del front-end
+
+## Front-end folder structure
 
 
 
