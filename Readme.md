@@ -242,7 +242,7 @@ Deliverit-Back
 
 ## Estructura de Carpetas
 
---github/
+- --github/
   - push.yml
 - --.husky/
   - --gitignore
