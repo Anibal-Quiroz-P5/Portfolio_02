@@ -75,11 +75,12 @@ The application will have the presence of two main roles:
   - Editing delivery addresses.
   - Monitoring the delivery of packages by the drivers throughout the day.
 
-## Front-End
+## Back-End
 
-The project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
+The project named  **deliverit-back**  uses Express, NodeJs, Typescript, and configuration files necessary for the application to work with Docker.
 
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
+
 
 
 ## Estructura de Carpetas del back-end
@@ -97,7 +98,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - `dist/`: 
   - Folder generated when we build our project, and it contains the files necessary to run the system on a server.
 - `public/images/`: 
-  - carpeta destinada a...
+  - For images. 
 - `src/`: 
   - `controllers/`: 
     - The controllers handle the logic of our application.
@@ -114,4 +115,71 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - `tests/`: 
   - This folder is intended for the tests of our project.
 
+-----------------------------------------------------------
+
+## Back-End
+
+The project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
+
+Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
+
+
+## Estructura de Carpetas del front-end
+- `.github/workflows/`: 
+  - `push.yml`
+  - This folder is intended for GitHub Actions workflows
+- `.husky/`: 
+  - `.gitignore`
+  - `husky.sh`
+  - `precommit`
+  - This folder is for Husky, that allows to add Git hooks to our project.
+
+
+- `app\`: 
+  - `(PrincipalFlow)/`:
+  - This folder is intended for GitHub Actions workflows
+- `(User)\`: 
+- `(login)\`:
+- `(signup)\`:
+  - `.gitignore`
+  - `husky.sh`
+  - `precommit`
+  - This folder is for Husky, that allows to add Git hooks to our project.
+- `config/`: 
+  - For configuration files.
+- `dist/`: 
+  - Folder generated when we build our project, and it contains the files necessary to run the system on a server.
+- `public/images/`: 
+  - For images. 
+- `src/`: 
+  - `controllers/`: 
+    - The controllers handle the logic of our application.
+  - `middlewares/`: 
+    - This folder is intended for the middlewares which are functions that are executed before the controllers.
+  - `models/`: 
+    -  for the models of our project, which represent the data of our application.
+  - `repositories/`: 
+    - Are  repositories of your project, which handle the communication with the database.
+  - `routes/`: 
+    - This folder is intended for the routes of our project, which define the endpoints of our API.
+  - `services/`: 
+    -  For the services of your project, which handle the business logic of our application.
+- `tests/`: 
+  - This folder is intended for the tests of our project.
+
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+  - app
+  - (PrincipalFlow)
+    - home
+      - Archivos relacionados con la página de inicio
+    - on course
+    - packages
+  - login
+  - signup
+- components
+- pages
+- public
+- styles
 
