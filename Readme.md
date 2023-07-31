@@ -241,10 +241,10 @@ Deliverit-Back
 
 ## Estructura de Carpetas
 
-- --controllers
+- --controllers/
   - index.js
   - -pepe.jsx
-- --middlewares
+- --middlewares/
   - --index.js
   - --pepe.jsx
 - --models
