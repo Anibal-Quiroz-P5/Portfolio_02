@@ -60,7 +60,20 @@ Our team will be using the GitFlow workflow for managing the development and mai
 ----------------------------------------------------------------------------------
 
 
-# Project Creation Process
+# Descripción del proyecto
+
+## Project Repository about a Package Distribution Application
+
+This project is about an application for a package distribution company that manages delivery drivers responsible for distributing packages. Each driver will receive a certain number of packages during the day to be delivered to customers with different addresses.
+
+The application will have the presence of two main roles:
+
+- **Package Delivery Driver Role**: This role is responsible for receiving the package delivery requests for the day and has the freedom to choose the order of delivery.
+
+- **Administrator Role**: The administrator role is responsible for:
+  - Assigning/reassigning packages.
+  - Editing delivery addresses.
+  - Monitoring the delivery of packages by the drivers throughout the day.
 
 ## Front-End
 
@@ -98,7 +111,7 @@ Our team performed various tests to ensure that the "deliverit-front" repository
     - This folder is intended for the routes of our project, which define the endpoints of our API.
   - `services/`: 
     -  For the services of your project, which handle the business logic of our application.
-- `tests/`: This folder is intended for the tests of our project.
-  - 
+- `tests/`: 
+  - This folder is intended for the tests of our project.
 
 
