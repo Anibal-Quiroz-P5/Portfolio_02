@@ -202,11 +202,11 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 Deliverit-Back
 
 - --.github/
-				- push.yml
+				  - push.yml
 - --.husky/
-			  .gitignore
-				husky.sh
-			pre-commit
+			    - .gitignore
+				  - husky.sh
+			  - pre-commit
 - --config/
 
 - --dist/
@@ -227,15 +227,15 @@ Deliverit-Back
 
 			- --services/
 
-			server.ts
+			  - server.ts
 
---  tests/
+  -   tests/
 
---.dockerignore
+  - .dockerignore
 
---.eslintrc.json
+  - .eslintrc.json
 
--- .gitignore
+  - .gitignore
 
 
 
@@ -243,7 +243,7 @@ Deliverit-Back
 
 - --controllers/
   - index.js
-  - -pepe.jsx
+  - pepe.jsx
 - --middlewares/
   - --index.js
   - --pepe.jsx
