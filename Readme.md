@@ -245,9 +245,9 @@ Deliverit-Back
 - --github/
   - push.yml
 - --.husky/
-  - --.gitignore
-  - --husky.sh
-	  - --pre-commit
+  - .gitignore
+  - husky.sh
+	- pre-commit
 - --config/
 - --dist/
 - --public/
