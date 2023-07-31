@@ -146,7 +146,8 @@ Our team performed various tests to ensure that the "deliverit-front" repository
     - home/
     - on course/
     - packages/
-  - (User)/  
+  - (User)/
+    - This subfolder represents the user-related functionality of the application.  
     - login
     - signup
 - components/
