@@ -242,12 +242,11 @@ Deliverit-Back
 
 ## Estructura de Carpetas
 
-- --controllers/
-  - index.js
-  - pepe.jsx
-- --middlewares/
-  - --index.js
-  - --pepe.jsx
+- --github/
+  - push.yml
+- --.husky/
+  - --gitignore
+  - --husky.sh
 - --models
   - --index.js
   - --pepe.jsx
