@@ -157,13 +157,19 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - hooks/
     - This folder may contain custom React hooks.
 - interceptors/
-    - This folder may contain interceptors, which are modules responsible for intercepting and modifying requests or responses in an application.Interceptors are commonly used for tasks such as authentication, error handling, or data transformation. 
+    - This folder may contain interceptors, which are modules responsible for intercepting and modifying requests or responses in an application. Interceptors are commonly used for tasks such as authentication, error handling, or data transformation. 
 - interfaces/
+    - This folder contains TypeScript interface definitions.
 - public/
+    - This folder contains static files that can be accessed by the user, such as images, fonts, or other assets. 
 - redux/
+    - This folder may contain files related to state management using Redux.  It may include actions, reducers, and selectors for managing and accessing global state.
 - services/
+    - This folder may contain service modules that handle communication with external APIs or perform other backend-related tasks. Services typically encapsulate API calls and provide an interface for interacting with external resources.
 - styles/
+    - It contains global styles for the application, for example the font-family for the body.
 - utils/
+    - contain utility functions or helper modules that provide common functionality used throughout the application.
 
 
   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
