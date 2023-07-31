@@ -182,3 +182,27 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 - public
 - styles
 
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+- app
+  - (PrincipalFlow)
+    - home
+      - Archivos relacionados con la página de inicio
+    - on course
+      - Archivos relacionados con la página de cursos
+    - packages
+      - Archivos relacionados con la página de paquetes
+  - login
+    - Archivos relacionados con la página de inicio de sesión
+  - signup
+    - Archivos relacionados con la página de registro
+- components
+  - Componentes reutilizables en toda la aplicación
+- pages
+  - Archivos de las páginas de la aplicación
+- public
+  - Archivos estáticos a los que el usuario puede acceder
+- styles
+  - Estilos globales de la aplicación, incluyendo el archivo de configuración de Tailwind CSS
