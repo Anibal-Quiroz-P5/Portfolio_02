@@ -245,14 +245,13 @@ Deliverit-Back
 - --github/
   - push.yml
 - --.husky/
-  - --gitignore
+  - --.gitignore
   - --husky.sh
-- --models
-  - --index.js
-  - --pepe.jsx
-- --views
-  - --index.js
-  - --pepe.jsx
-- --utils
-  - --index.js
-  - --pepe.jsx
+	  - --pre-commit
+- --config/
+- --dist/
+- --public/
+- --src/
+    - --controllers/
+	  - --middlewares/
+
