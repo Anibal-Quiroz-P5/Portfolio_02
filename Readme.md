@@ -245,6 +245,7 @@ Deliverit-Back
 - --github/
   - push.yml
 - --.husky/
+     tiene las carpetas
   - .gitignore
   - husky.sh
 	- pre-commit
