@@ -199,4 +199,42 @@ To create the front-end project, follow these steps:
 
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
 
+Deliverit-Back
+
+-- .github/
+				push.yml
+-- .husky/
+			  .gitignore
+				husky.sh
+			pre-commit
+-- config/
+
+-- dist/
+
+-- public/
+			--images/
+
+-- src/
+			--controllers/
+
+			--middlewares/
+
+			--models
+
+			--repositories
+
+			--routes
+
+			--services
+
+			server.ts
+
+--  tests/
+
+--.dockerignore
+
+--.eslintrc.json
+
+-- .gitignore
+
 
