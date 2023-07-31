@@ -126,10 +126,11 @@ Our team performed various tests to ensure that the "deliverit-front" repository
 
 ## Estructura de Carpetas del front-end
 
-HHHHHOOOLLLAAAA
+## HHHHHOOOLLLAAAA
 
-- .github/workflows
+- .github/workflows   
   - push.yml
+    - Archivos relacionados con la acción de push.
 - .husky/
   - .gitignore.yml
   - .husky.sh
