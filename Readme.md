@@ -62,80 +62,10 @@ Our team will be using the GitFlow workflow for managing the development and mai
 
 # Project Creation Process
 
-## Back end
+## Front end
 
-The back-end part of the project, named **deliverit-back**, uses Express, NodeJs, Typescript, and configuration files necessary for the application to work with Docker.
+The front-end part of the project named **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
 
-The basic steps for its construction were as follows:
-
-1. Create an empty repository on Github.
-
-2. Clone the repository to the local computer.
-
-3. Manually create the empty folders and files for the back-end by following this basic structure:
-
-![Alt text](public/images/image-5.png)
-
-
-4. Generate the "package.json" file with the command:
-
-	$ npm init
-
-
-5. Install Typescript with the command:
-
-	$ npm i typescript –save-dev
-
-
-6. Add the dependencies to be used in the "package.json" file, so they can be installed later.
-
-7. Create the Typescript configuration file with:
-
-	$ npx tsc –init
-
-
-8. Create the "dist" folder in the root of "deliverit-back."
-
-9. Add an "index.ts" file to each project folder to prevent all files from being uploaded to Github.
-
-10. Inside the "github/workflows" folder, create a "push.yml" file.
-
-11. Complete the ".gitignore" file with:
-
-![Alt text](public/images/image-6.png)
-
-
-12. Create the ".env" file in the root and fill it with the required configuration:
-
-![Alt text](public/images/image-17.png)
-
-
-13. Create the "docker-compose.yml" file in the root, shaping the folder and file structure as follows:
-
-![Alt text](public/images/image-8.png)
-
-
-14. Complete the "dockerfile" with the configuration to build the image:
-
-![Alt text](public/images/image-16.png)
-
-
-15. Complete the "docker-compose.yml" file with the following content:
-
-![Alt text](public/images/image-10.png)
-
-
-16. Push the initial basic repository to Github, resulting in:
-
-![Alt text](public/images/image-11.png)
-
-
-17. Create a branch called "develop" on Github and set it as the default branch.
-
-
-Our team performed various tests to ensure that the "deliverit-back" repository is functioning and ready to start developing functionalities for the next sprint.
-
------------------------------------------------------------------------------------------------------------------
 
 
 
@@ -143,121 +73,10 @@ Our team performed various tests to ensure that the "deliverit-back" repository 
 
 The front-end part of the project named  **deliverit-front** uses NextJs as the framework, along with selected languages, libraries, and frameworks such as Typescript, React, and Tailwind. Configuration files necessary for the application to work with Docker have also been added.
 
-Typescript, React, Tailwind.
-
-
-To create the front-end project, follow these steps:
-
-
-1. On your local computer, create a project folder called "deliverit-front" 
-
-2. Install the NextJs framework using the following command:
-
-	$ npx create-next-app@latest
-
-3. As a result of the previous command, the following folder structure is automatically created for the Front-End:
-
-![Alt text](image-18.png)
-
-
-4. Manually create the "Components" and "utils" folders in the root, and within each folder, add an "index.tsx" file.
-
-5. Manually create the "styles" folder in the root and add a "globals.css" file within it:
-
-![Alt text](image-19.png)
-
-
-6. Complete the content of the "tsconfig.json" file.
-
-7. Create the "services," "hooks," "redux," "adapters," and "interceptors" folders in the root (the last one for 
-   intercepting axios requests), and within each folder, create an "index.ts" file.
-
-8. For the configuration of the ".eslintrc.json" file, adopt the recommended settings from the project's 
-   instructions, available at the following link:
-
-     https://github.com/Faridmurzone/linters-and-config  
-
-
-9. Manually create the "Dockerfile" and define its content as follows:
-
-![Alt text](image-20.png)
-
-
-10. Manually create the "docker-compose.yml" file and define its content as follows:
-
-![Alt text](image-21.png)
-
-
-11. Upload the project to the empty repository previously created on Github using the following command:
-
-	$ git remote add origin https://github.com/FacundoInza/deliverit-front.git
-
-    The result should look like this:
-
-![Alt text](image-22.png)
-
-
 Our team performed various tests to ensure that the "deliverit-front" repository is functioning and ready to start developing functionalities for the next sprint.
 
-Deliverit-Back
-## Estructura de Carpetas
-
-- --.github/
-		- push.yml
-- --.husky/
-			    - .gitignore
-				  - husky.sh
-			  - pre-commit
-- --config/
-
-- --dist/
-
-- --public/
-			- --images/
-
-- --src/
-			- --controllers/
-
-			- --middlewares/
-
-			- --models/
-
-			- --repositories/
-
-			- --routes/
-
-			- --services/
-
-			  - server.ts
-
-  -   tests/
-
-  - .dockerignore
-
-  - .eslintrc.json
-
-  - .gitignore
-
-
 
 ## Estructura de Carpetas
-
-- --github/
-  - push.yml
-- --.husky/
-     tiene las carpetas
-  - .gitignore
-  - husky.sh
-	- pre-commit
-- --config/
-- --dist/
-- --public/
-- --src/
-    - --controllers/
-	  - --middlewares/
-
-
-ULTIMOOOOOOOO
 
 - `.github/workflows/`: carpeta destinada a...
   - `push.yml`
@@ -276,3 +95,16 @@ ULTIMOOOOOOOO
   - `routes/`: carpeta destinada a...
   - `services/`: carpeta destinada a...
 - `tests/`: carpeta destinada a...
+
+## Setup:
+Install the dependencies.
+
+To run the application in development:
+$ npm run dev
+
+To run the application in production:
+$ npm run build
+
+To view the front-end result, put in the browser:
+http://localhost:3000
+
